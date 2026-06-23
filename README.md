@@ -80,7 +80,7 @@ frontend/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/airbnb-clone.git
+git clone https://github.com/dubeyankur2005/airbnb-clone.git
 ```
 
 Move into the project:
