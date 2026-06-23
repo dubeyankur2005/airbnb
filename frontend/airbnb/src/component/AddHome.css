@@ -1,0 +1,62 @@
+body{
+
+  background:#f7f7f7;
+
+}
+
+
+.home-image{
+
+  width:260px;
+
+}
+
+
+.form-control{
+
+  border-radius:15px;
+
+  padding:14px;
+
+}
+
+
+.form-control:focus{
+
+  box-shadow:none;
+
+  border:2px solid #FF385C;
+
+}
+
+
+label{
+
+  font-weight:600;
+
+  margin-bottom:8px;
+
+}
+
+
+.btn-danger{
+
+  background:#FF385C;
+
+  border:none;
+
+}
+
+
+.btn-danger:hover{
+
+  background:#e11d48;
+
+}
+
+
+.shadow{
+
+  box-shadow:0 10px 30px rgba(0,0,0,0.08) !important;
+
+}
