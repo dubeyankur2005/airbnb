@@ -1,6 +1,9 @@
 import { FaAirbnb, FaUserCircle } from "react-icons/fa";
+import "../App.css"
 
-function Navbar({ setState }) {
+import {  NavLink } from "react-router-dom"
+
+function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-white shadow-sm px-4 py-3">
 
@@ -26,56 +29,60 @@ function Navbar({ setState }) {
         {/* Menu */}
 
         <ul className="nav">
-
           <li className="nav-item">
-
-            <a
-
-              href="#"
-
+            <NavLink 
+              to="/"
               className="nav-link fw-semibold"
-
-              onClick={(e) => {
-
-                e.preventDefault();
-
-                setState("Home");
-
-              }}
-
             >
 
               Home
 
-            </a>
+            </NavLink>
 
           </li>
-
-
           <li className="nav-item">
-
-            <a
-
-              href="#"
-
+            <NavLink to="/add-home"
+              
               className="nav-link fw-semibold"
-
-              onClick={(e) => {
-
-                e.preventDefault();
-
-                setState("add-home");
-
-              }}
-
             >
-
               Add Home
-
-            </a>
-
+            </NavLink>
           </li>
 
+          
+          <li className="nav-item">
+            <NavLink to="/favorites"
+              href="#"
+              className="nav-link fw-semibold"
+            >
+              Favorites
+            </NavLink>
+          </li>
+
+
+
+         
+          <li className="nav-item">
+            <NavLink to="/booking"
+              href="#"
+              className="nav-link fw-semibold"
+            >
+              Booking
+            </NavLink>
+          </li>
+
+
+
+
+          
+          <li className="nav-item">
+            <NavLink to="/host-house"
+              href="#"
+              className="nav-link fw-semibold"
+            >
+              Host House
+            </NavLink>
+          </li>
         </ul>
 
         {/* Profile */}

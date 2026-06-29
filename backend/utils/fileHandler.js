@@ -4,7 +4,7 @@ const fs = require("fs");
 // This function's job:
 // Read homes.json.
 
-const readHome =()=>{
+const readHomes =()=>{
 
   const fileData = fs.readFileSync("./homes.json", "utf-8");
 
@@ -20,7 +20,7 @@ const writeHomes =(home)=>{
 };
 
 module.exports ={
-  readHome,
+  readHomes,
   writeHomes
 };
 

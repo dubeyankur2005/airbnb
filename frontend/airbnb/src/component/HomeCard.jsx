@@ -1,9 +1,23 @@
 import "./HomeCard.css";
-function HomeCard({ item }) {
+function HomeCard({ item, favorites, toggleFavorite }) {
+
+  const isFavorite = favorites.includes(item._id);
 
   return (
 
     <div className="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+
+      <button
+        className="favorite-btn"
+        onClick={() =>toggleFavorite(item._id)}
+        >
+          {isFavorite ?"❤️" :"🤍"}
+
+      </button>
+
+
+
+      
 
       <img
 

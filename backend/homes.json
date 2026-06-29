@@ -1,1 +1,58 @@
-[{"houseName":"Mountain Views","rent":"55000","location":"Nallasopar, Maharashtra","rating":"4.9","ownerName":"Ankur Dubey"},{"houseName":"","rent":"","location":"","rating":"","ownerName":""},{"houseName":"","rent":"","location":"","rating":"","ownerName":""}]
+[
+  {
+    "houseName": "Mountain Views",
+    "rent": "55,000",
+    "location": "Nallasopar, Maharashtra",
+    "rating": "4.9",
+    "ownerName": "Ankur Dubey"
+  },
+  {
+    "houseName": "Donkey Views",
+    "rent": "27,0000",
+    "location": "virar,Maharashtra",
+    "rating": "3.9",
+    "ownerName": "Golu Dubey"
+  },
+  {
+    "houseName": "River Views",
+    "rent": "30,000",
+    "location": "palghar,Maharashtra",
+    "rating": "4",
+    "ownerName": "Chandan Dubey"
+  },
+  {
+    "houseName": "Sea View",
+    "rent": "5000000",
+    "location": "vasai,Maharashtra",
+    "rating": "5",
+    "ownerName": "Shraddha Dubey"
+  },
+  {
+    "houseName": "My vill",
+    "rent": "200000",
+    "location": "Shandash Nagar, Maharashtra",
+    "rating": "1",
+    "ownerName": "Aryan Saroj"
+  },
+   {
+    "houseName": "Tatti View",
+    "rent": "200000",
+    "location": "Shandash Nagar, Maharashtra",
+    "rating": "2",
+    "ownerName": "Ansh Saroj"
+  },
+   {
+    "houseName": "Mutti View",
+    "rent": "200000",
+    "location": "Shandash Nagar, Maharashtra",
+    "rating": "2",
+    "ownerName": "Kushal Saroj"
+  },
+   {
+    "houseName": "Pishab View",
+    "rent": "200000",
+    "location": "Shandash Nagar, Maharashtra",
+    "rating": "2",
+    "ownerName": "Sonu Saroj"
+  }
+]
